@@ -1,0 +1,9 @@
+name: Bulk Message System
+type: module
+description: 'Provides ContentEntityStudentContact entity.'
+package: Example modules
+core: 8.x
+# These modules are required by the tests, must be available at bootstrap time
+dependencies:
+  - views
+  - views_bulk_operations
